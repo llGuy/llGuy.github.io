@@ -21,3 +21,4 @@ This is my first post. For a long time, I have been extremely interested in the 
 - 3D skeletal animation
 - networking
 
+All this will be done in C++ and OpenGL.
