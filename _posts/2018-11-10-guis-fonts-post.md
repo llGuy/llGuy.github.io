@@ -11,7 +11,7 @@ GUIs were already not a very simple thing to implement. A lot of tutorials that 
 
 Let's assume that you are implementing GUIs in the normal naive way in which you just pass the 2D (OpenGL) coordinates of your GUI's quad. Ok, what happens if you resize your window? Your quad is completely messed up.
 
-Alright, alright, let's do it another way. Let's used pixel coordinates!
+Alright, alright, let's do it another way. Let's use pixel coordinates!
 
 Ok so you are going to specify the coordinates of your GUI in pixels and you want it to become centered in the screen. What happens if you resize? The size of you GUI doesn't change, your GUI isn't centered blah blah...
 

@@ -41,7 +41,7 @@ After a day of debugging, I found a problem in my code!!! Ah I was so happy. I f
 
 I was fuming. I had no idea what the problem WAS. AT ALL. I was so lost.
 
-The following problem cost me 3 days of my life(obviously I didn't spend all day those days debugging, only like 1 or 2).
+The following problem cost me 3 days of my life(obviously I didn't spend all day those days debugging, only like 1 or  hours2).
 
 #### What was the problem???
 
