@@ -26,6 +26,7 @@ author: Luc Rosenzweig
 markdown: kramdown
 theme: minima 
 #theme: jekyll-theme-hacker
+#theme: jekyll-theme-minima
 plugins:
   - jekyll-feed
 
