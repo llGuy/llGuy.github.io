@@ -6,24 +6,19 @@ categories: "GameEngine"
 ---
 
 {% highlight c++ %}
-
 /* initializing materials */
 material_light_info light{ glm::vec3(1.0f), glm::vec3(0.7f), glm::vec3(0.5f), 20.0f, 0.2f };
 material_prototype monkey_skin{ light, shaders[shader_handle("shader.low_poly")], lights };
 monkey_skin.get_textures_2D().push_back(textures.get_texture("texture.player"));
 monkey_skin.get_textures_cubemap().push_back(textures.get_texture("texture.sky"));
 renderer.set_material_prototype(monkey_skin);
-
 renderer.set_projection(projection_matrix);
-
 /*rendering materials*/
 glsl_program * low_poly_shader = renderer.get_shader();
 low_poly_shader->bind();
 low_poly_shader->send_uniform_vec3("camera_position", glm::value_ptr(camera.get_position()), 1);
 low_poly_shader->send_uniform_mat4("view_matrix", glm::value_ptr(view_matrix), 1);
-
 renderer.render();
-
 {% endhighlight %}
 
 #### This was how rendering in my engine was done before... and it makes me gag

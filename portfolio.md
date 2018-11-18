@@ -4,6 +4,8 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
+[My Resume](/assets/resume.pdf)
+
 My game Engine is [here](https://github.com/llGuy/gamedev/tree/master/Game%20Engine/GameEngine/src).
 
 # Animation
