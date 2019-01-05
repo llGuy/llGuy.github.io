@@ -8,13 +8,13 @@ categories: "Misc"
 # The Situation
 Recently, I've been trying to make Emacs my main "IDE" for C++, OpenGL etc... because I'm faster on it, and also Visual Studio has been really really really buggy lately (crashing, not updating, bugging...). For a while now, I've been having as a mini side project trying to make Emacs a decent C++ and OpenGL editor. However, it worked terribly.
 
-First of all, I told myself, "I need command line compiler!" so I installed MinGW and had access to GCC. I was so happy because I could finally compile C++ code! Next step : compiling it with OpenGL. That was very very complicated. Finding the ways to include the .lib files (which aren't compatible with GCC, you need .a files) was a tough task. There are few tutorials on Youtube and even though if I do manage to get the .a file compiled with CMake, there would probably be issues with like OpenGL, GLFW running in windows blah blah. Also CMake is annoying.
+First of all, I told myself, "I need command line compiler!" so I installed MinGW and had access to GCC. I was so happy because I could finally compile C++ code! Next step : compiling it with OpenGL. That was very very complicated. Finding the ways to include the .lib files (which aren't compatible with GCC, you need .a files) was a tough task. There are few tutorials on how to do this and even though if I do manage to get the .a file compiled with CMake, there would probably be issues with like OpenGL, GLFW running in windows blah blah. Also CMake is annoying.
 
 So I needed another solution. And that is when I thought : "What if I could use Visual Studio's compiler?".
 
 So I researched everything there is to know about the MSVC compiler and it's called cl.exe. Ok. Where is it.
 
-If you search up where to find cl.exe on the web, the stack overflow results are often old (2011 or something) so they didn't work with me. So, I tried to find it and managed to do it after a Quick Search. However, I needed this to be in the path. I read somewhere that simply putting it in the path variable wouldn't work as it depends on other stuff and there is a batch file : vscall.bat or something that you can call to set up all the necessary path variables. So I found it and ran it.
+If you search up where to find cl.exe on the web, the stack overflow results are often old (2011 or something) so they didn't work with me. So, I tried to find it and managed to do it after a Quick Search. However, I needed this to be in the path. I read somewhere that simply putting it in the path variable wouldn't work as it depends on other stuff and there is a batch file : vsvarsall.bat or something that you can call to set up all the necessary path variables. So I found it and ran it.
 
 Yay I have access to cl.exe and it works!
 
