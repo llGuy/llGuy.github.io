@@ -7,9 +7,9 @@ categories: "GameEngine"
 
 A good and flexible rendering pipeline is essential for me as I often like to tweak it. I tried to make one that was relatively decoupled so that if I move the stages around it still work. The solution I had (not a very complicated one) was to simply have a stack of polymorphic render stages.
 
-{% highligh c++ %}
+{% highlight c++ %}
 class render_stage;
-{% endhighligh %}
+{% endhighlight %}
 
 From this 2 class derive : `render_stage2D` and `render_stage3D`.
 - The 2D render stage is for post processing effects as they simply need a 2D textured quad rendered of the scene.
@@ -20,7 +20,7 @@ It needs the dimensions of the texture target and the target textures or renderb
 
 This is how the shadow mapping stage gets created:
 
-{% highligh c++ %}
+{% highlight c++ %}
 render_stage_create_info info;
 info.width = shadow_handler::get_shadow_map_size();
 info.height = shadow_handler::get_shadow_map_size();
@@ -31,11 +31,11 @@ info.create_flags = RENDER_STAGE_CREATE_INFO_COLOR_NONE
 
 render_pipeline.add_render_stage<render_stage3D>("render_stage.shadow_pass", &materials, &lights.get_shadow_handler().get_shadow_camera(), time_handler);
 render_pipeline.create_render_stage("render_stage.shadow_pass", info, renderbuffers, textures);
-{% endhighligh %}
+{% endhighlight %}
 
 For a post processing stage it looks like this:
 
-{% highligh c++ %}
+{% highlight c++ %}
 render_stage_create_info info;
 
 auto depth_dof = renderbuffers.add_renderbuffer("renderbuffer.bloom_depth");
@@ -55,6 +55,6 @@ bloom_stage->add_texture2D_bind(textures.get_texture("texture.motion_blur")
 	, textures.get_texture("texture.hblur1"));
 bloom_stage->set_active_textures(active_texture_uniform_pair{ "diffuse", 0 }
 	, active_texture_uniform_pair{ "brightness", 1 });
-{% endhighligh %}
+{% endhighlight %}
 The 2D stage most likely needs dependencies of the previous stages.
 This one needs `"texture.motion_blur"` and `"texture.hblur1"`. One could simply specify to use the previous stage's output as the input by passing `TEXTURE2D_BINDING_PREVIOUS_OUTPUT` into the `add_texture2D_bind` function.
