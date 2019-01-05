@@ -32,13 +32,13 @@ So yeah I can finally compile OpenGL and GLFW with C++ on Windows which means I 
 
 However, there is a new problem. What if I change something in the .h files. It might not update the .cpp file would it huh.
 
-Well, GCC has an option -MM which outputs the dependencies of the .cpp file. So, it I just `>` it into a .dep file, I would be able to include that in the Makefile! Ok I do that. But wait. GCC outputs something like this `main.o: main.cpp foo.h bar.h....`. I'm using cl.exe. .o doesn't work with it! AH ok. There is a linux command sed that can manipulate a stream of a string with a script. If I '|' the output of `GCC -MM` into  `[some string] 's/.o:/.obj'` and `>` that into some .dep file, I finally get the correct `main.obj: main.cpp foo.h bar.h...`.
+Well, GCC has an option `-MM` which outputs the dependencies of the .cpp file. So, it I just `>` it into a .dep file, I would be able to include that in the Makefile! Ok I do that. But wait. GCC outputs something like this `main.o: main.cpp foo.h bar.h....`. I'm using cl.exe. .o doesn't work with it! AH ok. There is a linux command sed that can manipulate a stream of a string with a script. If I `|` the output of `GCC -MM` into  ` [some string] 's/.o:/.obj' ` and `>` that into some .dep file, I finally get the correct `main.obj: main.cpp foo.h bar.h...`.
 
 Does all this work ? Yes!
 
 Here is the Makefile. Hopefully this was useful to anyone...
 
-{% hightlight makefile %}
+{% highlight makefile %}
 CC := cl
 CFLAGS := /std:c++latest -Zi /EHsc
 LIBS := [libs] msvcrt.lib msvcmrt.lib # <- these are important !
