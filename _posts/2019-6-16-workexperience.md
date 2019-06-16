@@ -17,7 +17,7 @@ One thing that was quite remarkable was the sheer number of components that go b
 
 Another one of the things I will forever remember is the very first piece of code that I got to push to version control of a real product! It is an extremely exciting process, although a little terrifying, knowing that if I push an important piece of code, something may break. Thankfully though, that didn't happen.
 
-Unfortunately, these two weeks were such a blast and simply just seemed to go too fast! On the last day, the first day seemed like it was the day before. It was almost scary how fast it went. The problems and tasks given to me were so interesting and were all part of a very big code base which was itself something to get used to.
+These two weeks were such a blast but unfortunately simply just seemed to go too fast! On the last day, the first day seemed like it was the day before. It was almost scary how fast it went. The problems and tasks given to me were so interesting and were all part of a very big code base which was itself something to get used to.
 
 Overall, this was an incredible experience. It was almost like a dream. The studio is filled with extremely great, kind and fun people, all of whom open to share what they do and explain their work. It was very inspiring for me to see so many people passionate about game development - it really makes me want to continue learning game development.
 
