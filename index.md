@@ -10,5 +10,3 @@ layout: home
 In this website, I document my journey learning programming.
 
 At the moment, I am very interested in game development, more specifically, game engine development.
-
-I am also currently looking for a work placement in a game development or graphics company.

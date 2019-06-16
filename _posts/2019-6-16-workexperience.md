@@ -19,6 +19,6 @@ Another one of the things I will forever remember is the very first piece of cod
 
 These two weeks were such a blast but unfortunately simply just seemed to go too fast! On the last day, the first day seemed like it was the day before. It was almost scary how fast it went. The problems and tasks given to me were so interesting and were all part of a very big code base which was itself something to get used to.
 
-Overall, this was an incredible experience. It was almost like a dream. The studio is filled with extremely great, kind and fun people, all of whom open to share what they do and explain their work. It was very inspiring for me to see so many people passionate about game development - it really makes me want to continue learning game development.
+Overall, this was an incredible experience. It was almost like a dream. The studio is filled with extremely great, kind and fun people, all of whom open to share what they do and explain their work. It was  very inspiring for me to see so many people passionate about game development - it really makes me want to continue learning game development.
 
 Thank you Splash Damage for giving me this opportunity. 
