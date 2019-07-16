@@ -7,7 +7,7 @@ categories: ""
 
 ### The Problem
 
-I have this artifact, in my new project, with the SSR implementation that I provided a while back:
+I have this artifact, in my new project, with the [SSR implementation]({% post_url 2019-1-1-reflections %}) that I provided a while back:
 
 ![photo](/assets/Saska/SSR_Artifact.PNG)
 
