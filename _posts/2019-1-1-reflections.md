@@ -7,7 +7,7 @@ categories: "GameEngine"
 
 # Screen Space Reflections
 
-This was quite hard to implement mostly because there isn't many documentation on how to properly implement SSR. The best I found was this : http://imanolfotia.com/blog/update/2017/03/11/ScreenSpaceReflections.html
+This was quite hard to implement mostly because there isn't many documentation on how to properly implement SSR. The best I found was [this](http://imanolfotia.com/blog/update/2017/03/11/ScreenSpaceReflections.html)
 
 However, I honestly found it quite confusing as some things don't really line up (I even asked a question just to be sure are something specific).
 
@@ -61,7 +61,7 @@ As you can see, the point P is under the box (and shouldn't be reflecting), angl
 
 If we then check for the cos(angle) of P to A and P to B, we can set that as the threshold for the angle.
 
-I wrote about this on gamedev : https://www.gamedev.net/forums/topic/700212-problem-with-screen-space-reflections-in-opengl/?tab=comments#comment-5397702 
+I wrote about this on [gamedev](https://www.gamedev.net/forums/topic/700212-problem-with-screen-space-reflections-in-opengl/?tab=comments#comment-5397702)
 It is likely to be better explained there if you want to understand more about this.
 
 When adding this threshold, the result is this :
