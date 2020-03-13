@@ -3,9 +3,12 @@ layout: post
 title: "Reflective Surfaces"
 date: 2018-11-10 14:00:00
 categories: "GameEngine"
+excerpt_separator: <!--more-->
 ---
 
 Unfortunately, this post will not be too interesting. Although water looks super awesome in games, it was much easier to implement than those damn shadows (which look easier to implement).
+
+<!--more-->
 
 ### How it works
 

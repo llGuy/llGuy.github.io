@@ -3,11 +3,12 @@ layout: post
 title: "Guis and Fonts"
 date: 2018-11-10 14:20:00
 categories: "GameEngine"
+excerpt_separator: <!--more-->
 ---
 
-### GUIs
-
 GUIs were already not a very simple thing to implement. A lot of tutorials that I looked at for GUIs said that implementing them was relatively easy - "it's just rendering a 2-D textured quad" ... NO IT'S NOT JUST THAT
+
+<!--more-->
 
 Let's assume that you are implementing GUIs in the normal naive way in which you just pass the 2D (OpenGL) coordinates of your GUI's quad. Ok, what happens if you resize your window? Your quad is completely messed up.
 

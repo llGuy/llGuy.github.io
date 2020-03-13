@@ -3,11 +3,14 @@ layout: post
 title: "Skeletal Animation"
 date: 2018-11-10 14:40:00
 categories: "GameEngine"
+excerpt_separator: <!--more-->
 ---
 
 Ok, here we go. Animations.
 
 For implementing animations, I used once again, [ThinMatrix's tutorial](https://www.youtube.com/watch?v=f3Cr8Yx3GGA).
+
+<!--more-->
 
 ### COLLADA Parsing
 

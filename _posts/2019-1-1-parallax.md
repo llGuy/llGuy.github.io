@@ -3,10 +3,13 @@ layout: post
 title: "Parallax and Normal Mapping"
 date: 2019-1-1 8:00:00
 categories: "GameEngine"
+excerpt_separator: <!--more-->
 ---
 
 These two effects are not too complicated and can really make the 3D scene look much much better.
 For a simple 2D texture, it can turn something like this :
+
+<!--more-->
 
 ![photo](/assets/normal.PNG)
 

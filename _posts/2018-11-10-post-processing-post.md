@@ -3,11 +3,12 @@ layout: post
 title: "Post Processing"
 date: 2018-11-10 14:30:00
 categories: "GameEngine"
+excerpt_separator: <!--more-->
 ---
 
-### Post Processing!
-
 Post processing is super cool! as it's not very hard to implement and makes your game look so cool.
+
+<!--more-->
 
 ### DoF
 

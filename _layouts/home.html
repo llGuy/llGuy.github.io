@@ -4,8 +4,6 @@ layout: default
 
 <div class="home">
 
-  {{ content }}
-
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
@@ -18,9 +16,7 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+        {{ post.excerpt }}
       </li>
       {%- endfor -%}
     </ul>

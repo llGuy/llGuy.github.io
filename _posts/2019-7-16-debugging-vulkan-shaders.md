@@ -5,13 +5,9 @@ date: 2019-7-16 14:40:00
 categories: ""
 ---
 
-### The Problem
-
-I have this artifact, in my new project, with the [SSR implementation]({% post_url 2019-1-1-reflections %}) that I provided a while back:
+I have this artifact, in my new project, with the [SSR implementation]({% post_url 2019-1-1-reflections %}) that I provided a while back: The shaders are written in GLSL, and are fed to the Vulkan graphics pipeline for rendering the screen space reflections.
 
 ![photo](/assets/Saska/SSR_Artifact.PNG)
-
-The shaders are written in GLSL, and are fed to the Vulkan graphics pipeline for rendering the screen space reflections.
 
 It would be very nice to step into the fragment shader of this post processing shader in your favourite debugger and see why the artifacts are showing up... But unfortunately, there aren't any vulkan shader debugging tools available quite yet.
 

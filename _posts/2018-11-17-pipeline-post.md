@@ -3,9 +3,12 @@ layout: post
 title: "Rendering Pipeline"
 date: 2018-11-17 16:00:00
 categories: "GameEngine"
+excerpt_separator: <!--more-->
 ---
 
 A good and flexible rendering pipeline is essential for me as I often like to tweak it. I tried to make one that was relatively decoupled so that if I move the stages around it still work. The solution I had (not a very complicated one) was to simply have a stack of polymorphic render stages.
+
+<!--more-->
 
 {% highlight c++ %}
 class render_stage;

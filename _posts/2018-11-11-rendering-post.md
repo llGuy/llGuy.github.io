@@ -3,6 +3,7 @@ layout: post
 title: "New Rendering System"
 date: 2018-11-11 22:35:00 +0000
 categories: "GameEngine"
+excerpt_separator: <!--more-->
 ---
 
 {% highlight c++ %}
@@ -21,7 +22,9 @@ low_poly_shader->send_uniform_mat4("view_matrix", glm::value_ptr(view_matrix), 1
 renderer.render();
 {% endhighlight %}
 
-#### This was how rendering in my engine was done before... and it makes me gag
+<!--more-->
+
+#### This was how rendering in my engine was done before...
 
 ## Everything wrong with the old system
 

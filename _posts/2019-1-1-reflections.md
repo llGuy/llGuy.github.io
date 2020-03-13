@@ -3,11 +3,12 @@ layout: post
 title: "Screen Space Relfections"
 date: 2019-1-1 10:00:00
 categories: "GameEngine"
+excerpt_separator: <!--more-->
 ---
 
-# Screen Space Reflections
-
 This was quite hard to implement mostly because there isn't many documentation on how to properly implement SSR. The best I found was [this](http://imanolfotia.com/blog/update/2017/03/11/ScreenSpaceReflections.html)
+
+<!--more-->
 
 However, I honestly found it quite confusing as some things don't really line up (I even asked a question just to be sure are something specific).
 

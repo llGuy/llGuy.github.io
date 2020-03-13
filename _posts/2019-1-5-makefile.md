@@ -3,10 +3,12 @@ layout: post
 title: "The Windows-Emacs-Makefile Conundrum"
 date: 2019-1-5 17:00:00
 categories: "Misc"
+excerpt_separator: <!--more-->
 ---
 
-# The Situation
 Recently, I've been trying to make Emacs my main "IDE" for C++, OpenGL etc... because I'm faster on it, and also Visual Studio has been really really really buggy lately (crashing, not updating, bugging...). For a while now, I've been having as a mini side project trying to make Emacs a decent C++ and OpenGL editor. However, it worked terribly.
+
+<!--more-->
 
 First of all, I told myself, "I need command line compiler!" so I installed MinGW and had access to GCC. I was so happy because I could finally compile C++ code! Next step : compiling it with OpenGL. That was very very complicated. Finding the ways to include the .lib files (which aren't compatible with GCC, you need .a files) was a tough task. There are few tutorials on how to do this and even though if I do manage to get the .a file compiled with CMake, there would probably be issues with like OpenGL, GLFW running in windows blah blah. Also CMake is annoying.
 

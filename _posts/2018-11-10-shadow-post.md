@@ -3,9 +3,12 @@ layout: post
 title: "Shadows"
 date: 2018-11-10 13:40:00
 categories: "GameEngine"
+excerpt_separator: <!--more-->
 ---
 
 Shadows, something that needs lots of things to work, in order to work...
+
+<!--more-->
 
 ### How to implement shadows
 

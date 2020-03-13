@@ -3,9 +3,12 @@ layout: post
 title: "Component System"
 date: 2018-11-10 10:40:00
 categories: "GameEngine"
+excerpt_separator: <!--more-->
 ---
 
 Component Systems... I had some trouble designing the initial version of this component system...
+
+<!--more-->
 
 ### What is a component system based architecture
 

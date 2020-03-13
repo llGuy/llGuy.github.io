@@ -3,13 +3,12 @@ layout: post
 title: "Deferred Renderer"
 date: 2019-1-1 9:00:00
 categories: "GameEngine"
+excerpt_separator: <!--more-->
 ---
 
-## Deferred Rendering
+Deferred rendering, is a technique in which the program postpones (hence deferring) the lighting calculations after all the geometry has been rendered so that the lighting calculations happen only on the pixels that are rendered. All geometry behind the player, or culled by the view frustum will not have the lighting process, saving a lot of time.
 
-What is it?
-
-It is postponing (hence deferring) the lighting calculations after all the geometry has been rendered so that the lighting calculations happen only on the pixels that are rendered. All geometry behind the player, or culled by the view frustum will not have the lighting process, saving a lot of time.
+<!--more-->
 
 It is also much better for multiple light sources as the calculations are reduced to just what is on the screen.
 
