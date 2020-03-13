@@ -5,7 +5,7 @@ date: 2020-03-02 14:40:00
 categories: "Game"
 ---
 
-Hello !! I've got something quite exciting to share... Over the past few months, I've been playing around with a ton of different things when it comes to game development, and thought I might start a project that may help others to learn and overcome certain challenges I had faced during this time.
+Hello !! I've got something quite exciting to share... Over the past few months, I've been playing around with a ton of different things when it comes to game development ([link to Github](https://github.com/llGuy/saska)), and thought I might start a project that may help others to learn and overcome certain challenges I had faced during this time.
 
 The main problem I had, was finding resources on how making the networking part of a multiplayer real time game would work. So, I was starting to have this idea of writing articles on how designing an engine for this sort of thing might work.
 
