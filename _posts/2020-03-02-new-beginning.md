@@ -35,4 +35,4 @@ For now, given that I just started, there isn't very much. Just the classic sphe
 
 I'm currently working on the renderer (because it is quite essential to any game really), which as an underlying graphics API, uses Vulkan. I will move on to more core engine stuff (networking, entities, ...) once sufficient renderer components will be added (lighting, atmosphere, ...), which I will be documenting with articles as well.
 
-![photo](/assets/vkPhysics_pbr.png)
+![photo](/assets/atmosphere.png)
