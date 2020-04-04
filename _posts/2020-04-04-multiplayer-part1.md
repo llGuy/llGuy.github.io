@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Multiplayer Architecture - Part 1"
-date: 2020-04-04 22:30:00
+date: 2020-04-04 14:40:00
 categories: "Game"
 ---
 
