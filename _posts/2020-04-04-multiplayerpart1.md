@@ -44,6 +44,7 @@ The game loop is therefore structured in this way (pseudo code)
 {% highlight c++ %}
 void game_loop() {
     while (true) {
+        // For Windowed application
         update_display();
         
         if (running_as_client) {
