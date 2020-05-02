@@ -21,7 +21,7 @@ If this was a Minecraft-like game, in which players could just modify one voxel 
 
 ## Let's first do this without worrying about corrections
 
-The first thing we need to take care of is recording the modifications the client has done in the time between sending commands to the server. When we send commands to the server, we will not only the buttons pressed, the predicted positions / directions, but also the predicted values of *just* the voxels that have been modified.
+The first thing we need to take care of is recording the modifications the client has done in the time between sending commands to the server. When we send commands to the server, we will not only send the buttons pressed, the predicted positions / directions, but also the predicted values of *just* the voxels that have been modified.
 
 Then the server receives this packet, executes the "player actions" that were sent (just the buttons pressed), which would modify the server's local terrain state. This terrain state will get dispatched to the other clients as "terrain deltas": just the voxel changes.
 
