@@ -11,7 +11,7 @@ I must admit, I really love game development. It always comes to me as a shock w
 
 As someone who is very interested in computer programming, I cannot believe how many subfields I've had to explore with the ultimate goal of making the [game](https://github.com/llGuy/vkPhysics) I'm currently working on.
 
-I therefore just wanted to pay tribute to traditional game development by sharing the various things I explored and learned to various degrees of depth as well as explain in depth how they were useful to me along the way. Hopefully, for people who feel overwhelmed by the vast amount of things that exist under the "computer programming" or "computer science" umbrella, I might convince some of you to try out game development for yourself to learn a wide variety of things in a naturally structured way.
+I therefore just wanted to pay tribute to traditional game development by sharing the various things I explored and learned to various degrees of depth as well as explain how they were useful to me along the way. Hopefully, for people who feel overwhelmed by the vast amount of things that exist under the "computer programming" or "computer science" umbrella, I might convince some of you to try out game development for yourself to learn a wide variety of things in a naturally structured way.
 
 So, following the path I took when it comes to the topics I came across in my journey in game development, let's start with the basics.
 
@@ -29,7 +29,7 @@ The development of games is extremely performance-oriented. Games have been, ove
 
 And rendering a shot from a Pixar film can take up to a couple tens of hours. Rendering that shot of UE5, needs to take less than a sixtieth of a second... Performance is a big deal.
 
-This ultimately means that access to low-level infrastructure is crucial when it comes to performant game code - hence, C/C++ programming. Because of this, low-level programming will become very familiar, and anyone spending a decent amount of time doing it, will eventually gain a very solid and practical understanding of how lots of things work in the computer - whether it be memory, the CPU (architecture, SSE, etc..), or even the operating system. This has ultimately come in handy when for example I had to think about how to organise entities, managing memory etc...
+This ultimately means that access to low-level infrastructure is crucial when it comes to performant game code - hence, C/C++ programming. Because of this, low-level programming will become very familiar, and anyone spending a decent amount of time doing gamedev, will eventually gain a very solid and practical understanding of how lots of things work in the computer - whether it be memory, the CPU (architecture, SSE, etc..), or even the operating system. This has ultimately come in handy when for example I had to think about how to organise entities, managing memory etc...
 
 ![photo](/assets/cpp.png)
 
@@ -83,7 +83,7 @@ When it comes to game development, something that sparks curiosity in many peopl
 
 ## Conclusion
 
-Overall, I really think that for people starting out in computer programming, game programming can be an enormous benefit. It gives you warranted excuses to try out so so so many things in computer science / programming. I remember that as I started, I would just do small random projects to learn very specific topics but never had something to lead me through all of it - until I ran into game development.
+Overall, I really think that for people starting out in computer programming, game programming can be an enormous benefit. It gives you warranted excuses to try out so so so many things in computer science / programming. I remember that as I started, I would just do small random projects to learn very specific topics but never had something to lead me through all of it. Furthermore I just generally found that looking for these mini projects to learn various concepts with, were very hard to come up with, especially as a beginner. But with making games, you don't need to search - your imagination is the limit in the type of game you can make, and ultimately, the type of project you can work on through which I garantee, you will learn more than through the mini projects that people starting off tend to do (like I did).
 
 And of course, isn't it everyone's childhood dream to make video games?
 
